@@ -2,8 +2,10 @@
   "name": "UrbanBot",
   "version": "1.0.0",
   "description": "A Discord Bot",
-  "main": "app.js",
-  "scripts": {},
+  "main": "build/app.ts",
+  "scripts": {
+    "start:dev": "ts-node-dev -r tsconfig-paths/register --no-notify src/app.ts"
+  },
   "keywords": [],
   "author": "Krista",
   "license": "MIT",
